@@ -36,6 +36,20 @@ plane.rotation.x = -Math.PI / 2;
 plane.position.y = -20;
 scene.add(plane);
 
+// Add collision to the plane
+planeGeometry.computeBoundingBox();
+const planeBoundingBox = planeGeometry.boundingBox.clone();
+planeBoundingBox.translate(plane.position);
+planeBoundingBox.applyMatrix4(plane.matrixWorld);
+
+// Create a sphere
+const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
+const sphereMaterial = new THREE.MeshToonMaterial({ color: 0xffffff });
+const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+sphereMaterial.emissive.set(0xff0000);
+scene.add(sphere);
+
+
 // Create PointerLockControls
 const controls = new PointerLockControls(camera, document.body);
 
