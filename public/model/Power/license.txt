@@ -1,0 +1,11 @@
+Model Information:
+* title:	Power - White Cat Project
+* source:	https://sketchfab.com/3d-models/power-white-cat-project-5293acaf886e4b8c891b98f2adccac4c
+* author:	Acheal (https://sketchfab.com/KerbyKhan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Power - White Cat Project" (https://sketchfab.com/3d-models/power-white-cat-project-5293acaf886e4b8c891b98f2adccac4c) by Acheal (https://sketchfab.com/KerbyKhan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
